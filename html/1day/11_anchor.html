@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anchor html</title>
+  </head>
+
+  <body>
+    <h1>Anchor Tags</h1>
+    <h3>절대경로</h3>
+    <div>
+      <a href="http://www.naver.com" target="_blank">Naver</a>
+      <!-- target="_blank" 하면 새창으로 띄워짐-->
+      <a href="http://www.google.com">google</a>
+      <a href="http://127.0.0.1:5500/html/1day/10_table.html">테이블 사용법</a>
+      <!-- 위에 테이블 사용법 html은 로딩되는데 시간이 더 소요됨-->
+    </div>
+
+    <h3>상대경로</h3>
+    <div>
+      <a href="10_table.html" target="_parent">테이블 사용법</a>
+      <!-- _self _blank는 기억해두면 좋음-->
+    </div>
+    <h3>파일 다운로드</h3>
+    <a href="sample_site.zip">샘플 사이트</a>
+    <!-- ample_site.zip 이 다운로드 된다. -->
+    <!-- 어느 라이브서버 안에서든 호출될 수 있도록 하려면 
+      "/html/ample_site.zip" 이렇게 작성하기-->
+  </body>
+</html>
