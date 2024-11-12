@@ -3,5 +3,7 @@
 //함수의 실행결과 반환 키워드 :: return
 
 function add(a, b) {
-  console.log(a + b);
+  console.log(parseInt(a) + parseInt(b));
 }
+
+add(5, 6);
