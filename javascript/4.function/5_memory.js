@@ -4,8 +4,10 @@ function add(a, b) {
   console.log(a + b);
 }
 
+let sum = add; // call by reference
 console.log(add);
-let sum = add;
+console.log(sum);
 
-add(1, 2);
+add(1, 3);
 sum(1, 2);
+console.log('--- 프로그램 종료 ---');
