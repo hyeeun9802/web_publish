@@ -1,0 +1,29 @@
+<!-- html에서 이벤트 발생하게끔 해주는게 JavaScript가 하는 일-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./6_quiz_login.js"></script>
+  </head>
+  <body>
+    <h1>Login</h1>
+    <ul>
+      <li>
+        <label for="id">아이디</label>
+        <input type="text" id="id" placeholder="아이디 입력" />
+        <!-- id 이름 맞춰야함-->
+      </li>
+      <li>
+        <label for="pass">패스워드</label>
+        <input type="text" id="pass" placeholder="패스워드 입력" />
+      </li>
+      <li>
+        <button type="button" onclick="loginClick()">Login</button>
+        <!-- ()안쓰면 주소만 가져오는거라서 () 꼭 사용해야함-->
+        <button type="reset">Reset</button>
+      </li>
+    </ul>
+  </body>
+</html>
