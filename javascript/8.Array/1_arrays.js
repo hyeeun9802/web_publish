@@ -3,7 +3,7 @@
     -string, number, boolean
     ex) 100, "홍길동", '홍길동', true...
     let number = 100;
-  2. Reference DataType : 참도 데이터타입
+  2. Reference DataType : 참조 데이터타입
     -object literal({}), class, array([])..
     ex) let obj = {name : "홍길동", ...}
         let arr = [1,2,3]
@@ -14,7 +14,7 @@
       인덱스 주소를 통해 요소를 저장하고 관리함, 인덱스 주소는 0부터!!
 
   
-  let array1 = mew Array(10); // 크기 정의
+  let array1 = new Array(10); // 크기 정의
   let array2 = [1,2,3,4]; //크기와 요소의 초기화 (배열의 크기와 어떤 데이터인지까지)
   let array3 = ['1', '2', '3'] // (')싱글 쿼테이션으로 묶었기 때문에 문자이다!
   let array4 = [{name : "홍길동"}, {name = "김철수"}, ...]
