@@ -1,6 +1,7 @@
 import './App.css';
 import AppButton from './components/AppButton.jsx';
 import Box from "./Box.jsx";
+import AppMenu from './AppMenu.jsx';
 
 export default function App() {
   return (

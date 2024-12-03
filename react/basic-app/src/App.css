@@ -13,6 +13,11 @@ button{
 */
 
 /* 실습 코드 */
+.App-container {
+  display: flex;
+  gap: 10px;
+}
+
 .App {
   text-align: center;
 }

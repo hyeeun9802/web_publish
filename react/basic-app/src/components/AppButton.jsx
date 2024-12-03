@@ -11,9 +11,7 @@ export default function AppButton(){
     {"name" : "Submit", "type" : "submmit"},
     {"name" : "Reset", "type" : "reset"}
     
-    
   ];
-
 
  //display:'flex' 가로 방향으로 배치
   return (

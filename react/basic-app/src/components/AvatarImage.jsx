@@ -1,8 +1,7 @@
-import '../css/Avatar.css'
+import '../css/Avatar.css';
 
-export default function AvatarImage(){
-
-  return (
-    <img src={img} className="avatar-img"></img>
-  );
+export default function AvatarImage({img}) {
+    return (
+        <img src={img} className="avatar-img"></img>
+    );
 }
