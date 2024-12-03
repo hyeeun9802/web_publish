@@ -1,0 +1,56 @@
+1. React (리액트)?
+⭐ Use Interface(사용자 인터페이스)를 만들기 위한 JavaScript 라이브러리
+- Meta(구, facebook)에서 2018년도 오픈소스로 공개, 2015년도에 React Native 출시
+- 2019년도 "함수"형태로 업데이트 됨, 그전에는 클래스 기반이었음
+- 2022년도 서버사이드 렌더링이 가능해짐
+
+*서버사이드 렌더링?
+서버에서 페이지를 그려 클라이언트(브라우저)로 보낸 후 화면에 표시하는 기법을 의미
+<-> 클라이언트 사이드 렌더링 
+
+서버사이드 렌더링을 왜 쓸까?
+목적은 1) 검색 엔진 최적화 , 2) 빠른 페이지 렌더링 때문에
+
+2. ⭐ React 장점 ⭐
+- 빠른 업데이트와 렌더링 속도 : React DOM
+- 컴포넌트 기반 구조 : "함수"기반의 컴포넌트 생성
+- 재사용성
+- 든든한 지원군 : Meta(구, facebook)에서 support 해줌
+- 활발한 지식 공유 & 방대한 커뮤니티(NPM)
+- 모바일 앱 개발 가능 : 2015년 React Native 출시
+
+*React Native ?
+메타에서 만든 오픈소스 모바일 애플리케이션 프레임워크이다.
+자바스크립트로 개발이 가능하고, 
+IOS와 Android 모바일 앱을 동시에 개발할 수 있는 크로스 플랫폼
+
+React와 React Native의 차이점?
+-React는 화면 출력시 React DOM를 사용하지만, 
+React Native는 AppRegistry를 사용한다
+-React Native는 HTML문법을 사용하지 않고, Components를 사용한다
+-기존의 css를 지원하지 않는다. JS파일 안에서 StyleSheet를 사용한다
+
+3. React 단점
+- 방대한 학습량 : HTML, CSS, 자바스크립트 기본 + React 문법
+- 높은 상태 관리 복잡도 : React Hooks를 통한 상태 관리
+
+4. React 프로젝트 생성 및 실행
+1) NodeJS 설치 먼저 되어 있어야 함
+2) NPM 커뮤니티를 통해 React앱을 생성함
+3) React 앱 생성
+- npx create-react-app [생성할 앱 이름] 
+예) npx create-react-app my-app
+4) React 앱 실행
+  ~    > cd [이동할 앱 이름]
+my app > npm start
+
+5. React 실행 순서
+- npm start > src/index.js > App.js
+
+6. 컴포넌트(Component) ⭐
+- UI를 구성하는 함수 컴포넌트
+- 첫 글자는 대문자로 정의한다
+- return 키워드 다음에는 ()로 묶어준다
+- 반환되는 컴포넌트는 반드시 하나의 태그로 "그룹핑"을 한 후 
+  반환하도록 한다. 예) <div></div> 또는 <></>
+- 로직을 실행하는 코드는 {} 묶어서 반환코드에 추가한다
