@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import AppButton from './components/AppButton.jsx';
+import Box from "./Box.jsx";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <> 
+    <Box name="lee" num="1"/>
+    <Box name="kim" num="2"/>
+    <Box name="park" num ="3"/>
+   
+   <div className="App">
+      <AppButton />
     </div>
+  </> 
   );
 }
 
-export default App;
