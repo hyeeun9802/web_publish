@@ -1,0 +1,48 @@
+[
+            {
+                "img":"/images/1.jpg",
+                
+                "name":"Smith Kim" ,
+                "id":"@Smith",
+                "date":"2024-12-04",
+                "content":"거울입니다. 감기 조심하세요!"
+            },
+            
+            {
+                "img":"/images/2.jpg" ,
+                "name":"James lee" ,
+                "id":"@James",
+                "date":"2024-12-04",
+                "content":"거울입니다. 감기 조심하세요!"
+            },
+            
+            {
+                "img":"/images/3.jpg" ,
+                "name":"Kelly park" ,
+                "id":"@Kelly",
+                "date":"2024-12-04",
+                "content":"거울입니다. 감기 조심하세요!"
+            },
+            {
+                "img":"/images/1.jpg" ,
+                "name":"Kelly park" ,
+                "id":"@Kelly",
+                "date":"2024-12-04",
+                "content":"거울입니다. 감기 조심하세요!"
+            },
+            {
+                "img":"/images/2.jpg" ,
+                "name":"Kelly park" ,
+                "id":"@Kelly",
+                "date":"2024-12-04",
+                "content":"거울입니다. 감기 조심하세요!"
+            },
+            {
+                "img":"/images/3.jpg" ,
+                "name":"Kelly park" ,
+                "id":"@Kelly",
+                "date":"2024-12-04",
+                "content":"거울입니다. 감기 조심하세요!"
+            }
+
+] 

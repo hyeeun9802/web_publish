@@ -1,17 +1,19 @@
 import Button from "./Button.jsx";
 import ButtonList from "./ButtonList.jsx";
 
+import { useState, useEffect } from "react"; // 얘는 중복되면 안됨!
+
 export default function AppButton(){
  
-  const propsList = [
-    {"name" : "All", "type" : "button"},
-    {"name" : "Front-end", "type" : "button"},
-    {"name" : "Back-end", "type" : "button"},
-    {"name" : "Mobile", "type" : "button"},
-    {"name" : "Submit", "type" : "submmit"},
-    {"name" : "Reset", "type" : "reset"}
-    
-  ];
+  const [propsList, setPropsList] = useState([]);
+
+  useEffect = (() => {
+    fetch("data/button_names.js")
+          .then((result) => {result.json()})
+          .then((jsonData) => {setPropsList(jsonData)})
+          .catch();
+
+  }, []);
 
  //display:'flex' 가로 방향으로 배치
   return (

@@ -1,0 +1,18 @@
+   
+{
+
+ "imageList" :[
+
+    { "img": "/images/1.jpg" },
+    { "img": "/images/2.jpg" },
+    { "img": "/images/3.jpg" }
+    ],
+
+    "avatarList" : [
+
+    { "img": "/images/1.jpg", "name": "smith" },
+    { "img": "/images/2.jpg", "name": "james" },
+    { "img": "/images/3.jpg", "name": "kelly" }
+    ]
+}
+

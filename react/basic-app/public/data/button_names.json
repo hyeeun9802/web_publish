@@ -1,0 +1,13 @@
+{
+ 
+  "propsList" :
+  [
+    {"name" : "All", "type" : "button"},
+    {"name" : "Front-end", "type" : "button"},
+    {"name" : "Back-end", "type" : "button"},
+    {"name" : "Mobile", "type" : "button"},
+    {"name" : "Submit", "type" : "submmit"},
+    {"name" : "Reset", "type" : "reset"}
+    
+  ]
+}
