@@ -1,0 +1,26 @@
+
+{
+    
+    "specialList" : [ 
+
+        {
+            "text1":"SUITE CINEMA", "text2":"#호텔 컨셉의 프리미엄관"
+        },
+        {
+            "text1":"SUITE CINEMA", "text2":"##신개념 소셜 상영관"
+        },
+        {
+            "text1":"4DX", "text2":"##모션시트#오감체험"
+        },
+        {
+            "text1":"CINE de CHEF", "text2":"##쉐프가 있는 영화관"
+        }
+    ],
+    "packageList":[
+       
+    ],
+    "eventList":[
+        {}
+        
+    ]
+}

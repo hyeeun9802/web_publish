@@ -1,23 +1,18 @@
+import { useState, useEffect } from "react";
 import EventItem from "./EventItem";
 
 
 export default function Event(){
 
-    const list = [
-       
-        {"src" : " https://img.cgv.co.kr/WebApp/contents/eventV4/42386/17297657794310.jpg", 
-            "title":"[CGV]10우러 컬쳐위크", 
-            "date":"2024.10.24~2024.10.31"},
+    const [plist, setlist] = useState([]); 
 
-        {"src" : "/cgv/images/event1.jpg", 
-                "title":"[콜렉터블 무비머니]vol.1 맥스 달튼", 
-                "date":"2024.10.24~2024.10.31"},
-
-         {"src" : "/cgv/images/event1.jpg", 
-                    "title":"모아나2", 
-                    "date":"2024.10.24~2024.10.31"},
-    
-                ];
+    useEffect(()=>{
+        fetch("/data/cgv_content.json")
+            .then(data => data.json)
+            .then(jsonData => setlist(jsonData.eventList))
+            .catch(error => {console.log(error);
+            })
+    }, []);
 
     return(
         <section>
